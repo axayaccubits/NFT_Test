@@ -4,9 +4,11 @@
 pragma solidity ^0.8.0;
 
 import "./StorageStructure.sol";
+import "./ERC721Minter.sol";
 
 contract MarketPlace is StorageStructure{
-   
+
+    
 modifier whenTokenExist(uint256 _tokenID) {
         require(
             _tokenIDToToken[_tokenID]._artist != address(0),
@@ -31,6 +33,7 @@ modifier whenTokenExist(uint256 _tokenID) {
         string calldata _tokenSellingType,
         bytes calldata signature
     ) private {
+       
        
         //_mintToken(_newToken, _royaltyPoints);
     }

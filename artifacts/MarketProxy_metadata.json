@@ -459,7 +459,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"localhost/MarketProxy.sol": "MarketProxy"
+			"MarketProxy.sol": "MarketProxy"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -521,15 +521,15 @@
 				"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
 			]
 		},
-		"localhost/MarketProxy.sol": {
-			"keccak256": "0xf8dc19aae46850acbd4ed0645ffbb6ace679b782ff170c133d97136c5a56868d",
+		"MarketProxy.sol": {
+			"keccak256": "0x32e4db52001f38df9af78b77bb00a2785e2b0579086ecda7284c52b28452ee11",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7bb2c216ac011ceea065856f152c0da2b3243fb533fb7d36786244e688e5596e",
-				"dweb:/ipfs/Qmb8Ca8i2BsQ1g9agC9GV3KJi63JqD1jiVdUarZ4msVRK8"
+				"bzz-raw://c8e745eae12c5aad3e9357f53ef99d81d4d588f1da6e5255214c5b7f498adf8d",
+				"dweb:/ipfs/QmUCSQsC8HztzotcPXSgfkKx9FQQMsvm1Yf31ngm55zS4P"
 			]
 		},
-		"localhost/StorageStructure.sol": {
+		"StorageStructure.sol": {
 			"keccak256": "0x28be86b79f55d5c194abd9010105e8faa597e7fd3ccdb4b2457ac69f53943ca6",
 			"license": "MIT",
 			"urls": [

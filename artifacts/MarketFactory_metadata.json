@@ -215,7 +215,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"localhost/MarketFactory.sol": "MarketFactory"
+			"MarketFactory.sol": "MarketFactory"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -429,7 +429,7 @@
 				"dweb:/ipfs/QmfYuZxRfx2J2xdk4EXN7jKg4bUYEMTaYk9BAw9Bqn4o2Y"
 			]
 		},
-		"localhost/ERC721Minter.sol": {
+		"ERC721Minter.sol": {
 			"keccak256": "0x283d579530fdc97e06e4b3309d50771b5e4474870a211f8c3236dedd50f2f721",
 			"license": "MIT",
 			"urls": [
@@ -437,23 +437,23 @@
 				"dweb:/ipfs/QmTHxvHSu6c3c4yNurhUmWutwC2yXenLx3tb9w348oEfSP"
 			]
 		},
-		"localhost/MarketFactory.sol": {
-			"keccak256": "0xc0e758fcb414fd6036898cdd0843c839906808b0e03c3aa23a2d9e9d2e4467ad",
+		"MarketFactory.sol": {
+			"keccak256": "0xd26d0e958b74121a2f48ed82db38a046f83e1f731e991675fda53fb770f1de07",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://70935cb3b8299cfdc511ec97a57589dea3877e50311c02d3392591d85a4be7f9",
-				"dweb:/ipfs/QmNtAiJKJm6VEgJ7bNS5RHgaboJNLPdjGnsKcU4A7evsdB"
+				"bzz-raw://fb1b166ff865743cf3ccb312a125aead61db678059eb2cc4e632420e3e20afaa",
+				"dweb:/ipfs/Qmdkj2WtTXDRiGXdbvSJBky1uYF9MG4webRuqpPBEQ5hBz"
 			]
 		},
-		"localhost/MarketProxy.sol": {
-			"keccak256": "0xf8dc19aae46850acbd4ed0645ffbb6ace679b782ff170c133d97136c5a56868d",
+		"MarketProxy.sol": {
+			"keccak256": "0x32e4db52001f38df9af78b77bb00a2785e2b0579086ecda7284c52b28452ee11",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7bb2c216ac011ceea065856f152c0da2b3243fb533fb7d36786244e688e5596e",
-				"dweb:/ipfs/Qmb8Ca8i2BsQ1g9agC9GV3KJi63JqD1jiVdUarZ4msVRK8"
+				"bzz-raw://c8e745eae12c5aad3e9357f53ef99d81d4d588f1da6e5255214c5b7f498adf8d",
+				"dweb:/ipfs/QmUCSQsC8HztzotcPXSgfkKx9FQQMsvm1Yf31ngm55zS4P"
 			]
 		},
-		"localhost/StorageStructure.sol": {
+		"StorageStructure.sol": {
 			"keccak256": "0x28be86b79f55d5c194abd9010105e8faa597e7fd3ccdb4b2457ac69f53943ca6",
 			"license": "MIT",
 			"urls": [

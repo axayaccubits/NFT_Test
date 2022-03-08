@@ -17,7 +17,6 @@ contract MarketProxy is StorageStructure {
   
     constructor() {
         instanceCreator = msg.sender;
-        upgradeEnabled = true;
     }
 
     /**
@@ -51,7 +50,8 @@ contract MarketProxy is StorageStructure {
     {
         ERC721Address = _ERC721Address;
         _adminAddress = _superAdmin;
-       
+        upgradeEnabled = true;
+        __Ownable_init();
     }
 
     fallback() external payable {

@@ -28,11 +28,14 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
             _baseTokenURI,
             _superAdmin
         );
+
+        ERC721Instance.transferOwnership(msg.sender);
         MarketProxy _MarketProxy = new MarketProxy();
         address ProxyMarket = address(_MarketProxy);
 
         _MarketProxy.initialize(ERC721MinterAdr,_superAdmin);
         _MarketProxy.upgradeTo(MarketImplementationAddress);
+        _MarketProxy.transferOwnership(_superAdmin);
         
         userToContractInstance[msg.sender] = ERC721MinterAdr;
         emit instanceCreated(msg.sender,ERC721MinterAdr,ProxyMarket);
@@ -61,6 +64,8 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
             _baseTokenURI,
             _superAdmin
         );
+
+        ERC721Instance.transferOwnership(msg.sender);
         MarketProxy _MarketProxy = new MarketProxy();
         address ProxyMarket = address(_MarketProxy);
 
